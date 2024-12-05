@@ -1,0 +1,206 @@
+.section-3{
+    width: 1440px;
+    height: 1022px;
+    background-image: 
+    linear-gradient(
+        360deg,
+        rgba(216, 228, 233, 0) 0%,
+        rgba(216, 228, 233, 0.9) 100%
+      ),
+      url(https://s3-alpha-sig.figma.com/img/56fe/900c/3373b978c26674d26d5c9d2dfec315ab?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lpTEZOx2kkDG-Ol0N1YneGInHjSvIjLi2jWln4t-1mpxx6DGre11D624t~9abcnIvdBV9bOidWA-~O~qmJgnBnM7wswFhJ8qKwIuJfLU6KWjXoc2faTJhhNBjLbvpqDEtn7Qj4nQPABaeZbYJb-YgRxSc7z5wljIxYEwjTAPSFiLQSHRuZLuw02UeHmuNSRqLN06ZKWukHghh8fzOYFpDIAJRUCzI7sAbZ3EM-zCp2m7zEFs0WhNBhJGrXIfGXcNccHWv2CBOCiQlotnUrVpVQppyZVkmNhaprybL31yiNOumfRbtkBN2~~X~fj97k7Pv0ai3NJMTODWWcFjr6POPA__);
+    background-size: cover;
+    height: 902px;
+    .container{
+        .map-pin{
+            img{
+            
+            }
+        }
+        .loc{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .text-header{
+                height: 84px;
+                width: 1442px;
+                margin-top: 60px;
+                color: #333;
+                text-align: center;
+                h1{
+                    font-size: 42px;
+                    line-height: 50.11px;
+                }
+                p{
+                    font-size: 20px;
+                    line-height: 23.54px;
+                    font-weight: 500;
+                    color: rgba(24, 24, 27, 0.7)
+                }
+            }
+            .loc-container{
+                width: 1200px;
+                height: 640px;
+                margin-top: 64px;
+                display: flex;
+                flex-direction: row;
+                
+                .left{
+                    width: 513px;
+                    color: #333;
+                    .day-container{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background-color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                                   
+                    .item-1{
+                        margin: 0px 0px 10px 0;
+                        height: 112px;
+                        background-color: rgba(238, 233, 217, 1);
+                        border-radius: 120px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                       
+                        .text-div-1{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            .location-info{
+                                .location-details{
+                                    display: flex;
+                                    gap: 10px;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                        &:hover{
+                            border: 4px solid white;
+                        }
+                    }
+                    .item-2{
+                        margin: 10px 0;
+                        height: 112px;
+                        background-color: rgba(139, 184, 193, 0.8);
+                        border-radius: 120px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .text-div-2{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            .day-container{
+                                margin-right: 17px;
+                            }
+                            .location-info{
+                                .location-details{
+                                    display: flex;
+                                    gap: 10px;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                        &:hover{
+                            border: 4px solid white;
+                        }
+                    }
+                    .item-3{
+                        margin: 10px 0;
+                        height: 112px;
+                        background-color: rgba(170, 216, 215, 0.8);
+                        border-radius: 120px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .text-div-3{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            .location-info{
+                                .location-details{
+                                    display: flex;
+                                    gap: 10px;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                        &:hover{
+                            border: 4px solid white;
+                        }
+                    }
+                    .item-4{
+                        margin: 10px 0 ;
+                        height: 112px;
+                        background-color: rgba(139, 192, 189, 0.8);
+                        border-radius: 120px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .text-div-4{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            .location-info{
+                                .location-details{
+                                    display: flex;
+                                    gap: 10px;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                        &:hover{
+                            border: 4px solid white;
+                        }
+                    }
+                    .item-5{
+                        margin: 10px 0;
+                        height: 112px;
+                        background-color: rgba(151, 204, 224, 0.8);
+                        border-radius: 120px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .text-div-5{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            .location-info{
+                                .location-details{
+                                    display: flex;
+                                    gap: 10px;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                        &:hover{
+                            border: 4px solid white;
+                        }
+                    }
+                }
+                .right{
+                    position: relative;
+                    width: 647px;
+                    height: 640px;
+                    img{
+                        width:200px;
+                    }
+                    .img-1{
+                        position: absolute;
+                        left: 359px;
+                        rotate: 5%;
+                        top: 60px;
+                    }
+                    .img-2 {
+                        left: 164px;
+                    }
+                }
+            }
+        }
+    }
+}
+
