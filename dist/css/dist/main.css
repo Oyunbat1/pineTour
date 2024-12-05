@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+header {
+  position: fixed;
+  height: 43.5px;
+  width: 100%;
+  top: 30px;
+  left: 0;
+  right: 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header .container .en-logo {
+  color: #333;
+  background-color: #fff;
+  padding: 13px;
+  border-radius: 24px;
+}
+
+header .container .logo img {
+  width: 101px;
+  height: 35px;
+}
+
+header .container .navbar nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+}
+
+header .container .navbar nav ul li {
+  list-style: none;
+}
+
+header .container .navbar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.47px;
+  text-align: center;
+}
+
+.section-1 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/7a7d/1dd1/098d2481fb0f847b6ba2c5d7bbe0db4b?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PdTMI9jQkLyPGg2DXwAkvuwN1gBs7ryw~nSi51D~US41Dl0B9g2tyujJrQvwXE3IlbTn3bkemk-ZXb0sdxmzuZ7bkJWZ9BZL-M61Q3ue04Q6cUq3lia5q-ahUPEd8OzFS3GG5mUPEwYiUUPVK4YLE9S924VikAmodsZ~DY01YRHqlNfQm78sZGvFhtIBblO~qWJKEs~qwdKFmVCZMVG-kPEI3n7k34dEpn8UAKq-RJbuw1-d5ZxLtScM1hi~oPeXySirL3OF0E4hgpnw~DtwWhCSTotd3HfajjDOlaa52Hwa4nVUVHkRRYi2nyQecEylfShREwdcBVVGLfF3iwjoyw__);
+  background-size: cover;
+  height: 100vh;
+}
+
+.section-1 .container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1 .container .items {
+  text-align: center;
+}
+
+.section-1 .container .items h2 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 400px;
+  font-family: "Bebas Neue", sans-serif;
+  color: rgba(232, 237, 242, 0.72);
+}
+
+.section-1 .container .items h3 {
+  font-size: 250px;
+  line-height: 250px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.section-1 .container .items h4 {
+  font-size: 64px;
+  line-height: 64px;
+  font-family: "Hanuman", serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.section-2 {
+  width: 100vw;
+  height: 500px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
