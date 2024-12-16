@@ -1,0 +1,353 @@
+.section-4 {
+  width: 1440px;
+  background-image: linear-gradient(360deg, rgba(216, 228, 233, 0) 0%, rgba(216, 228, 233, 0.9) 100%), url(https://s3-alpha-sig.figma.com/img/bfc8/2fd9/8ba90e92a1a6c0d5ac559a55f9413e51?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gis9AJbercl5RX~W7NmYxHGRrVUVHeQ3Opo2skk5bk~WFIO-e7W9MY-CB5pD2oHN7VegHQI9Wv37o72p6ABPFJBzhwgeGcNv-n8g1V~QdepMmmDrLfZIKVzbTmzusGUtm3UCh0LxeO5ScXJFKfWmn0sftBTiapMVqc0YFhGqucn4YQDjjg9JQCmIWYv263RRww63~qpe38BVhofRbmIbUsQF2rmcrDn1OnK9Z4Uz6oNH5bV-Y1dyFAQWBolDvd7p1nv2PyJIEoZdP2pAZ-RsSqXKPWdgNY-0~aXHmi-TUHR5lGzQgYC~sRrQD8n1EVfxZc990AIqr5td7efZdS3DdQ__);
+  background-size: cover;
+  height: 1120px;
+}
+.section-4 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.section-4 .container .title-container {
+  height: 84px;
+  margin-top: 40px;
+  gap: 10px;
+}
+.section-4 .container .title-container h1 {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50.11px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.section-4 .container .title-container p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 23.54px;
+  color: rgba(24, 24, 27, 0.7);
+}
+.section-4 .container .card-container {
+  margin-top: 100px;
+  margin-left: 120px;
+  height: 527px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.section-4 .container .card-container .card {
+  width: 384px;
+  height: 557px;
+  border-radius: 40px;
+  background-color: white;
+}
+.section-4 .container .card-container .card-1 .header {
+  display: flex;
+  flex-direction: row;
+  height: 92px;
+  width: 384px;
+  align-items: center;
+  gap: 15px;
+  margin-left: 24px;
+}
+.section-4 .container .card-container .card-1 .header img {
+  width: 36px;
+  height: 36px;
+}
+.section-4 .container .card-container .card-1 .header h2 {
+  color: rgb(15, 15, 15);
+  font-size: 18px;
+  line-height: 21.47px;
+  font-weight: 600;
+}
+.section-4 .container .card-container .card-1 .content {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 435px;
+  width: 384px;
+  padding: 15px;
+}
+.section-4 .container .card-container .card-1 .content .detail {
+  display: flex;
+  flex-direction: column;
+}
+.section-4 .container .card-container .card-1 .content .detail .price {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 78px;
+  width: 336px;
+  padding: 0 20px;
+}
+.section-4 .container .card-container .card-1 .content .detail .price .subtle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(145, 145, 145);
+}
+.section-4 .container .card-container .card-1 .content .detail .price .text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+}
+.section-4 .container .card-container .card-1 .content .detail .Container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.section-4 .container .card-container .card-1 .content .detail .Container .Header-Container {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.section-4 .container .card-container .card-1 .content .detail .Container .items {
+  display: flex;
+  padding: 14px;
+  gap: 20px;
+}
+.section-4 .container .card-container .card-1 .content .detail .Container .items img {
+  width: 20px;
+  height: 20px;
+}
+.section-4 .container .card-container .card-1 .content .detail .Container .items p {
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.48px;
+}
+.section-4 .container .card-container .card-1 .content .btn button {
+  width: 336px;
+  height: 48px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(164, 209, 226);
+  font-weight: bold;
+}
+.section-4 .container .card-container .card-2 .header {
+  display: flex;
+  flex-direction: row;
+  height: 92px;
+  width: 384px;
+  align-items: center;
+  gap: 15px;
+  margin-left: 24px;
+}
+.section-4 .container .card-container .card-2 .header img {
+  width: 36px;
+  height: 36px;
+}
+.section-4 .container .card-container .card-2 .header h2 {
+  color: rgb(15, 15, 15);
+  font-size: 18px;
+  line-height: 21.47px;
+  font-weight: 600;
+}
+.section-4 .container .card-container .card-2 .content {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 435px;
+  width: 384px;
+  padding: 15px;
+}
+.section-4 .container .card-container .card-2 .content .detail {
+  display: flex;
+  flex-direction: column;
+}
+.section-4 .container .card-container .card-2 .content .detail .price {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 78px;
+  width: 336px;
+  padding: 0 20px;
+}
+.section-4 .container .card-container .card-2 .content .detail .price .subtle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(145, 145, 145);
+}
+.section-4 .container .card-container .card-2 .content .detail .price .subtle-container p:last-of-type {
+  color: white;
+  background-color: rgb(105, 114, 181);
+  width: 65px;
+  height: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.section-4 .container .card-container .card-2 .content .detail .price .text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+}
+.section-4 .container .card-container .card-2 .content .detail .Container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.section-4 .container .card-container .card-2 .content .detail .Container .Header-Container {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.section-4 .container .card-container .card-2 .content .detail .Container .items {
+  display: flex;
+  padding: 14px;
+  gap: 20px;
+}
+.section-4 .container .card-container .card-2 .content .detail .Container .items img {
+  width: 20px;
+  height: 20px;
+}
+.section-4 .container .card-container .card-2 .content .detail .Container .items p {
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.48px;
+}
+.section-4 .container .card-container .card-2 .content .btn button {
+  width: 336px;
+  height: 48px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(164, 209, 226);
+  font-weight: bold;
+}
+.section-4 .container .card-container .card-3 .header {
+  display: flex;
+  flex-direction: row;
+  height: 92px;
+  width: 384px;
+  align-items: center;
+  gap: 15px;
+  margin-left: 24px;
+}
+.section-4 .container .card-container .card-3 .header img {
+  width: 36px;
+  height: 36px;
+}
+.section-4 .container .card-container .card-3 .header h2 {
+  color: rgb(15, 15, 15);
+  font-size: 18px;
+  line-height: 21.47px;
+  font-weight: 600;
+}
+.section-4 .container .card-container .card-3 .content {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 435px;
+  width: 384px;
+  padding: 15px;
+}
+.section-4 .container .card-container .card-3 .content .detail {
+  display: flex;
+  flex-direction: column;
+}
+.section-4 .container .card-container .card-3 .content .detail .price {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 78px;
+  width: 336px;
+  padding: 0 20px;
+}
+.section-4 .container .card-container .card-3 .content .detail .price .subtle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(145, 145, 145);
+}
+.section-4 .container .card-container .card-3 .content .detail .price .text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+}
+.section-4 .container .card-container .card-3 .content .detail .Container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.section-4 .container .card-container .card-3 .content .detail .Container .Header-Container {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.section-4 .container .card-container .card-3 .content .detail .Container .items {
+  display: flex;
+  padding: 14px;
+  gap: 20px;
+}
+.section-4 .container .card-container .card-3 .content .detail .Container .items img {
+  width: 20px;
+  height: 20px;
+}
+.section-4 .container .card-container .card-3 .content .detail .Container .items p {
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.48px;
+}
+.section-4 .container .card-container .card-3 .content .btn button {
+  width: 336px;
+  height: 48px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(164, 209, 226);
+  font-weight: bold;
+}
+.section-4 .container .footer-container {
+  height: 204px;
+  margin-top: 180px;
+}
+.section-4 .container .footer-container .container {
+  width: 1200px;
+  height: 204px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-4 .container .footer-container .container .left {
+  height: 44px;
+  width: 358px;
+  display: flex;
+  gap: 20px;
+}
+.section-4 .container .footer-container .container .left .l-icon {
+  display: flex;
+  background-color: white;
+  color: rgb(105, 114, 181);
+  padding: 10px 30px;
+  border-radius: 20px;
+  gap: 10px;
+}
+.section-4 .container .footer-container .container .left .l-icon p {
+  align-self: center;
+}
+.section-4 .container .footer-container .container .left .r-icon {
+  display: flex;
+  background-color: white;
+  color: rgb(105, 114, 181);
+  padding: 10px 30px;
+  border-radius: 20px;
+  gap: 10px;
+}
+.section-4 .container .footer-container .container .left .r-icon p {
+  align-self: center;
+}
+.section-4 .container .footer-container .container .right img {
+  width: 101px;
+  height: 35px;
+}
+
+/*# sourceMappingURL=section-4.css.map */

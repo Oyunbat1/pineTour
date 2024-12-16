@@ -1,0 +1,388 @@
+.section-4{
+    width: 1440px;
+    background-image: 
+    linear-gradient(
+        360deg,
+        rgba(216, 228, 233, 0) 0%,
+        rgba(216, 228, 233, 0.9) 100%
+      ),
+      url(https://s3-alpha-sig.figma.com/img/bfc8/2fd9/8ba90e92a1a6c0d5ac559a55f9413e51?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gis9AJbercl5RX~W7NmYxHGRrVUVHeQ3Opo2skk5bk~WFIO-e7W9MY-CB5pD2oHN7VegHQI9Wv37o72p6ABPFJBzhwgeGcNv-n8g1V~QdepMmmDrLfZIKVzbTmzusGUtm3UCh0LxeO5ScXJFKfWmn0sftBTiapMVqc0YFhGqucn4YQDjjg9JQCmIWYv263RRww63~qpe38BVhofRbmIbUsQF2rmcrDn1OnK9Z4Uz6oNH5bV-Y1dyFAQWBolDvd7p1nv2PyJIEoZdP2pAZ-RsSqXKPWdgNY-0~aXHmi-TUHR5lGzQgYC~sRrQD8n1EVfxZc990AIqr5td7efZdS3DdQ__);
+    background-size: cover;
+    height: 1120px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .title-container{
+            height: 84px;
+            margin-top: 40px;
+            gap: 10px;
+            h1{
+                font-weight: 600;
+                font-size: 42px;
+                line-height: 50.11px;
+                text-align: center;
+                color: rgba(0, 0, 0, 1);
+            }
+            p{
+              text-align: center;  
+              font-size: 20px;
+              line-height: 23.54px;
+              color: rgba(24, 24, 27, 0.7);
+            }
+        }
+        .card-container{
+            margin-top: 100px;
+            margin-left: 120px;
+            height: 527px;
+            width: 1200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .card{
+              width: 384px;
+              height: 557px;
+              border-radius: 40px;
+              background-color: white; 
+            }
+            .card-1{
+                .header{
+                    display: flex;
+                    flex-direction: row;
+                    height: 92px;
+                    width: 384px;
+               
+                    align-items: center;
+                    gap: 15px;
+                    margin-left: 24px;
+                    img{
+                        width: 36px;
+                        height: 36px;
+                    }
+                    h2{
+                        color: rgb(15, 15, 15);
+                        font-size: 18px;
+                        line-height: 21.47px;
+                        font-weight: 600;
+                    }
+                }
+                .content{
+                    color: #333;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 435px;
+                    width: 384px;
+                    padding: 15px;
+                    .detail{
+                        display: flex;
+                        flex-direction: column;
+
+                        .price{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 15px;
+                            height: 78px;
+                            width: 336px;
+                            padding: 0 20px;
+                            .subtle-container{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                color: rgba(145, 145, 145, 1);
+                            }
+                            .text{
+                                h1{
+                                    font-size: 40px;
+                                    font-weight: 600;
+                                    line-height: 48.76px;
+                                }
+                            }
+                        }
+                        .Container{
+                         display: flex;
+                         flex-direction: column;
+                         margin-top: 30px;
+                            .Header-Container{
+                                display: flex;
+                                justify-content: space-around;
+                                margin-right: 50px;
+                                margin-bottom: 10px;
+                                
+                            }
+                            .items{
+                                display: flex;
+                                padding: 14px ;
+                                gap: 20px;
+                                img{
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                p{
+                                    padding-left: 5px;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    line-height: 16.48px;
+                                }
+                            }
+                        }
+                    }
+                    .btn{
+                        button{
+                            width: 336px;
+                            height: 48px;
+                            border-radius: 30px;
+                            border:none;
+                            background-color: rgba(164, 209, 226, 1);
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            .card-2{
+                .header{
+                    display: flex;
+                    flex-direction: row;
+                    height: 92px;
+                    width: 384px;
+               
+                    align-items: center;
+                    gap: 15px;
+                    margin-left: 24px;
+                    img{
+                        width: 36px;
+                        height: 36px;
+                    }
+                    h2{
+                        color: rgb(15, 15, 15);
+                        font-size: 18px;
+                        line-height: 21.47px;
+                        font-weight: 600;
+                    }
+                }
+                .content{
+                    color: #333;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 435px;
+                    width: 384px;
+                    padding: 15px;
+                    .detail{
+                        display: flex;
+                        flex-direction: column;
+
+                        .price{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 15px;
+                            height: 78px;
+                            width: 336px;
+                            padding: 0 20px;
+                            .subtle-container{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                color: rgba(145, 145, 145, 1);
+                                p:last-of-type{
+                                        color: white;
+                                        background-color:rgba(105, 114, 181, 1);
+                                        width: 65px;
+                                        height: 20px;                                       
+                                    text-align: center;
+                                        border-radius: 20px
+                                }
+                            }
+
+                            .text{
+                                h1{
+                                    font-size: 40px;
+                                    font-weight: 600;
+                                    line-height: 48.76px;
+                                }
+                            }
+                        }
+                        .Container{
+                         display: flex;
+                         flex-direction: column;
+                         margin-top: 30px;
+                            .Header-Container{
+                                display: flex;
+                                justify-content: space-around;
+                                margin-right: 50px;
+                                margin-bottom: 10px;
+                                
+                            }
+                            .items{
+                                display: flex;
+                                padding: 14px ;
+                                gap: 20px;
+                                img{
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                p{
+                                    padding-left: 5px;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    line-height: 16.48px;
+                                }
+                            }
+                        }
+                    }
+                    .btn{
+                        button{
+                            width: 336px;
+                            height: 48px;
+                            border-radius: 30px;
+                            border:none;
+                            background-color: rgba(164, 209, 226, 1);
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            .card-3{
+                .header{
+                    display: flex;
+                    flex-direction: row;
+                    height: 92px;
+                    width: 384px;
+               
+                    align-items: center;
+                    gap: 15px;
+                    margin-left: 24px;
+                    img{
+                        width: 36px;
+                        height: 36px;
+                    }
+                    h2{
+                        color: rgb(15, 15, 15);
+                        font-size: 18px;
+                        line-height: 21.47px;
+                        font-weight: 600;
+                    }
+                }
+                .content{
+                    color: #333;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 435px;
+                    width: 384px;
+                    padding: 15px;
+                    .detail{
+                        display: flex;
+                        flex-direction: column;
+
+                        .price{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 15px;
+                            height: 78px;
+                            width: 336px;
+                            padding: 0 20px;
+                            .subtle-container{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                color: rgba(145, 145, 145, 1);
+                            }
+                            .text{
+                                h1{
+                                    font-size: 40px;
+                                    font-weight: 600;
+                                    line-height: 48.76px;
+                                }
+                            }
+                        }
+                        .Container{
+                         display: flex;
+                         flex-direction: column;
+                         margin-top: 30px;
+                            .Header-Container{
+                                display: flex;
+                                justify-content: space-around;
+                                margin-right: 50px;
+                                margin-bottom: 10px;
+                                
+                            }
+                            .items{
+                                display: flex;
+                                padding: 14px ;
+                                gap: 20px;
+                                img{
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                p{
+                                    padding-left: 5px;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    line-height: 16.48px;
+                                }
+                            }
+                        }
+                    }
+                    .btn{
+                        button{
+                            width: 336px;
+                            height: 48px;
+                            border-radius: 30px;
+                            border:none;
+                            background-color: rgba(164, 209, 226, 1);
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-container{
+        
+            height: 204px;
+            margin-top: 180px;
+            .container{
+                width: 1200px;
+                height: 204px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .left{
+                    height: 44px;
+                    width: 358px;
+                    display: flex;
+                    gap: 20px;
+                    .l-icon{
+                        display: flex;
+                        background-color: white;
+                        color:rgba(105, 114, 181, 1);
+                        padding: 10px 30px;
+                        border-radius: 20px;
+                        gap: 10px;
+                        p{
+                            align-self: center;
+                        }
+                    }
+                    .r-icon{
+                        display: flex;
+                        background-color: white;
+                        color:rgba(105, 114, 181, 1);
+                        padding: 10px 30px;
+                        border-radius: 20px;
+                        gap: 10px;
+                        p{
+                            align-self: center;
+                        }
+                    }
+                }
+                .right{
+                    img{
+                        width: 101px;
+                        height: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
