@@ -1,73 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.section-2{
-    width: 1440px;
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items:  center;
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-        .card-container{
-           display: flex;
-           justify-content: center;
-            gap: 40px;
-            .card{
-                width: 275.49px;    
+    .section-2 {
+        height: 500px;
+        width: 1440px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        .card {
+            width: 275.49px;
+            height: 370px;
+            background-image: url(https://s3-alpha-sig.figma.com/img/9411/7af0/fae2d95b54ef6842a38934433c1d99d7?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H2IpamtxJLbt2h1I7CN-SqK-VA5KVkchffRwG71eGF52o~mzegg40BnbHrC6Qa74VC55C-H77UZXOPX7uYyZ4G3gJR2XBIAJrsI2tXKltEvDHJTt9tpShwPxw9Gm4vgvKOa--cXxIUU5TWhkC7LihZC9ShWLrc~CR4~rNQK3UlxMT72ymbRgaXpSpeIqE5BBmilusOzhF6M1ADE-1lF0EkE~xJJAgy3oNmcFC0UnIPTtyAdf8rwzfR~E0dc0sggHZ3xqsye2jfNueyxz07yxLY-kqd1sDkfgXpBI4w-sgNmK4EXEVLc00fc4oK5KD57CfINhfU4~izzC~~bkIeijxg__);
+            background-size: cover;
+            border-radius: 40px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover .bg-color {
+                opacity: 1;
+            }
+
+            &:hover .bg-text {
+                opacity: 1;
+            }
+
+            .bg-shadow-1 {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                z-index: -1;
+                background-color: #29728B40;
+                width: 275.49px;
                 height: 370px;
                 border-radius: 40px;
-                position: relative;
-              
-                img{
-                    width: 100%;
-                    height: 370px;
-                    border-radius: 40px;
-                    z-index: 100;
-                    &:hover{
-                        opacity: 1;
-                        background: rgba(0, 0, 0, 0.65);
-                        display: none;
-                    }
-                }
+            }
 
-                .rec{
-                    width: 285.49px;
-                    height: 376px;
-                    border-radius: 40px;
-                    position: absolute;
-                    mix-blend-mode: multiply;
-                    background-color: rgba(157, 184, 218, 0.2);
-                    z-index: -1;
-                }
-                .rec-1{
-                    bottom: 5px;
-                    right: 1px;
-                    width: 285.49px;
-                    height: 370px;
-                    border-radius: 40px;
-                    position: absolute;
-                    mix-blend-mode: multiply;
-                    background-color: rgba(1, 96, 212, 0.2);
-                    z-index: -1;
-                }
-                .text{
-                    position: absolute;
-                    width: 232px;
-                    height: 88px;
-                    top: 150px;
-                    left: 20px;
-                    
-                    h1{
-                        font-family: "Bebas Neue", sans-serif;
-                        font-size: 37px;
-                        font-weight: 400;
-                        line-height: 44.4px;
-                        text-align: center;
-                        color: rgba(253, 253, 254, 1);
-                        box-shadow: 0px 4px 4.9px 0px rgba(0, 0, 0, 0.65);
-           
-                    }          
-                }
+            .bg-shadow-2 {
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                z-index: -1;
+                background-color: #1F72AA75;
+                width: 275.49px;
+                height: 370px;
+                border-radius: 40px;
+            }
+
+            .bg-color {
+                position: absolute;
+                inset: 0;
+                background-color: rgba(0, 0, 0, 0.4);
+                border-radius: 40px;
+                opacity: 0.2;
+                transition: opacity 0.5s;
+            }
+
+            .bg-text {
+                position: relative;
+                color: #fff;
+                text-align: center;
+                font-size: 37px;
+                font-weight: 400;
+                width: 232px;
+                font-family: "Bebas Neue", serif;
+                opacity: 0.8;
+                transition: opacity 0.5s;
+                text-shadow: 0px 4px 4.9px #000000A6;
             }
         }
-    
-}
+    }

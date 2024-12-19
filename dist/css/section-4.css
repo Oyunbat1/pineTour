@@ -1,6 +1,6 @@
 .section-4 {
   width: 1440px;
-  background-image: linear-gradient(360deg, rgba(216, 228, 233, 0) 0%, rgba(216, 228, 233, 0.9) 100%), url(https://s3-alpha-sig.figma.com/img/bfc8/2fd9/8ba90e92a1a6c0d5ac559a55f9413e51?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gis9AJbercl5RX~W7NmYxHGRrVUVHeQ3Opo2skk5bk~WFIO-e7W9MY-CB5pD2oHN7VegHQI9Wv37o72p6ABPFJBzhwgeGcNv-n8g1V~QdepMmmDrLfZIKVzbTmzusGUtm3UCh0LxeO5ScXJFKfWmn0sftBTiapMVqc0YFhGqucn4YQDjjg9JQCmIWYv263RRww63~qpe38BVhofRbmIbUsQF2rmcrDn1OnK9Z4Uz6oNH5bV-Y1dyFAQWBolDvd7p1nv2PyJIEoZdP2pAZ-RsSqXKPWdgNY-0~aXHmi-TUHR5lGzQgYC~sRrQD8n1EVfxZc990AIqr5td7efZdS3DdQ__);
+  background-image: linear-gradient(360deg, rgba(216, 228, 233, 0) 0%, rgba(216, 228, 233, 0.9) 100%), url(https://s3-alpha-sig.figma.com/img/bfc8/2fd9/8ba90e92a1a6c0d5ac559a55f9413e51?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YD9ZVDnrfXAsPElWXBt5j-Y9wg2VObItYENgTX6mWWBXAnF6pip9MPibEHjgnDnJErS2c2l-7xsMt2re5GBOORwBaqWCv6W-wD3gfP-rInMIeSmss9TXpic8NqYfrKTBdkFrKBegSWFOySF~IhJYoaMU0EezcCgNMR6R~pi-IJc8Y-lRy~1~dB07vAvo98M9ExiG0ZMejBkoj1osvIR7TgHuW0OR-GZ2JDqousB4wEndaLSJodkG-5KHT29sJ5MsbigDHYNW~tbC4nMhBHu66L8gmQPcKh9KVQ1YQq98M6OUwhDTY~hmu5RQz3C5DgiGZpiCOwUpTEdK5zW-Ps00~g__);
   background-size: cover;
   height: 1120px;
 }
@@ -35,12 +35,47 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  gap: 40px;
 }
 .section-4 .container .card-container .card {
   width: 384px;
   height: 557px;
   border-radius: 40px;
   background-color: white;
+  position: relative;
+}
+.section-4 .container .card-container .card:hover .bg-shadow-1 {
+  display: block;
+}
+.section-4 .container .card-container .card:hover .bg-shadow-2 {
+  display: block;
+}
+.section-4 .container .card-container .card:hover .content .btn button {
+  background-color: rgb(39, 39, 49);
+  color: #fff;
+  transition: all 0.5s;
+}
+.section-4 .container .card-container .card .bg-shadow-1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: -1;
+  background-color: rgba(41, 114, 139, 0.2509803922);
+  width: 384px;
+  height: 557px;
+  border-radius: 40px;
+  display: none;
+}
+.section-4 .container .card-container .card .bg-shadow-2 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: -1;
+  background-color: rgba(31, 114, 170, 0.4588235294);
+  width: 384px;
+  height: 557px;
+  border-radius: 40px;
+  display: none;
 }
 .section-4 .container .card-container .card-1 .header {
   display: flex;
@@ -51,11 +86,25 @@
   gap: 15px;
   margin-left: 24px;
 }
-.section-4 .container .card-container .card-1 .header img {
+.section-4 .container .card-container .card-1 .header .img-container {
   width: 36px;
   height: 36px;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.section-4 .container .card-container .card-1 .header h2 {
+.section-4 .container .card-container .card-1 .header .img-container:hover {
+  background-color: rgb(204, 204, 204);
+  border: 1px solid rgb(169, 169, 169);
+  transition: all 0.5s;
+}
+.section-4 .container .card-container .card-1 .header .img-container img {
+  width: 16px;
+  height: 16px;
+}
+.section-4 .container .card-container .card-1 .header .text-container h2 {
   color: rgb(15, 15, 15);
   font-size: 18px;
   line-height: 21.47px;
@@ -136,11 +185,25 @@
   gap: 15px;
   margin-left: 24px;
 }
-.section-4 .container .card-container .card-2 .header img {
+.section-4 .container .card-container .card-2 .header .img-container {
   width: 36px;
   height: 36px;
+  border: 1px solid rgb(157, 157, 157);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.section-4 .container .card-container .card-2 .header h2 {
+.section-4 .container .card-container .card-2 .header .img-container:hover {
+  background-color: rgb(204, 204, 204);
+  border: 1px solid rgb(169, 169, 169);
+  transition: all 0.5s;
+}
+.section-4 .container .card-container .card-2 .header .img-container img {
+  width: 16px;
+  height: 16px;
+}
+.section-4 .container .card-container .card-2 .header .text-container h2 {
   color: rgb(15, 15, 15);
   font-size: 18px;
   line-height: 21.47px;
@@ -229,11 +292,25 @@
   gap: 15px;
   margin-left: 24px;
 }
-.section-4 .container .card-container .card-3 .header img {
+.section-4 .container .card-container .card-3 .header .img-container {
   width: 36px;
   height: 36px;
+  border: 1px solid rgb(157, 157, 157);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.section-4 .container .card-container .card-3 .header h2 {
+.section-4 .container .card-container .card-3 .header .img-container:hover {
+  background-color: rgb(204, 204, 204);
+  border: 1px solid rgb(169, 169, 169);
+  transition: all 0.5s;
+}
+.section-4 .container .card-container .card-3 .header .img-container img {
+  width: 16px;
+  height: 16px;
+}
+.section-4 .container .card-container .card-3 .header .text-container h2 {
   color: rgb(15, 15, 15);
   font-size: 18px;
   line-height: 21.47px;
@@ -316,6 +393,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin-left: 100px;
 }
 .section-4 .container .footer-container .container .left {
   height: 44px;
@@ -344,6 +422,9 @@
 }
 .section-4 .container .footer-container .container .left .r-icon p {
   align-self: center;
+}
+.section-4 .container .footer-container .container .right {
+  margin-left: 600px;
 }
 .section-4 .container .footer-container .container .right img {
   width: 101px;
