@@ -7,7 +7,7 @@
         rgba(216, 228, 233, 0) 0%,
         rgba(216, 228, 233, 0.9) 100%
       ),
-      url(https://s3-alpha-sig.figma.com/img/56fe/900c/3373b978c26674d26d5c9d2dfec315ab?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lpTEZOx2kkDG-Ol0N1YneGInHjSvIjLi2jWln4t-1mpxx6DGre11D624t~9abcnIvdBV9bOidWA-~O~qmJgnBnM7wswFhJ8qKwIuJfLU6KWjXoc2faTJhhNBjLbvpqDEtn7Qj4nQPABaeZbYJb-YgRxSc7z5wljIxYEwjTAPSFiLQSHRuZLuw02UeHmuNSRqLN06ZKWukHghh8fzOYFpDIAJRUCzI7sAbZ3EM-zCp2m7zEFs0WhNBhJGrXIfGXcNccHWv2CBOCiQlotnUrVpVQppyZVkmNhaprybL31yiNOumfRbtkBN2~~X~fj97k7Pv0ai3NJMTODWWcFjr6POPA__);
+      url(https://s3-alpha-sig.figma.com/img/56fe/900c/3373b978c26674d26d5c9d2dfec315ab?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Rjciv~78v7eXIxMRjmO~uFpLU9MlfE1PP2mbiuYNM663B0mdmPgPQeA576-sZ3dFpMRsksVH9W25XFqka8VSFMgds5XEz7UV1s-wZheUKjBqnDn7p5-NReNHqjFoVMLVQvSdNFSVqe6GSmwt93nokyt5Q4GTk9F0HA18wRG3rDCzv45~m3LebyIoAN6wRJErpUFo~4gAiPKOUEegzWR5lgk3EyOdtWbOkWWZfS0sLc1EBI7gyKl7On~mUhzwkIPZoiW40dPWj1LRYcqsEKdN7KMkwzWLAIXeTVGB2Sk8na1~WwENv7jzoxWbA-GVGWxl2ypMw3DNjpHwWOi9HoW9XQ__);
     background-size: cover;
     height: 902px;
     .container{
@@ -69,38 +69,44 @@
                         flex-direction: column;
                         justify-content: center;
                        position: relative;
-                       img{
-    
-                        position: absolute;
-                        top: 50.38px;
-                        left: 809px;
-                        width: 245px;
-                        height: 245px;
-                        display: none;
+                       border: 4px solid transparent;
+                       .loc-img-1{
+                        img{
+                            position: absolute;
+                            top: 50.38px;
+                            left: 809px;
+                            width: 245px;
+                            height: 245px;
+                            display: none;
+                           }
                        }
+                  
+                       &:hover{
+                        border: 4px solid white;
+                        img{
+                            display: block;
+                        }
+                    }
                         .text-div-1{
                             display: flex;
                             flex-direction: row;
                             justify-content: space-around;
                             .location-info{
                                 margin-right: 50px;
+                                display: flex;
+                                flex-direction: column;
                                 .location-details{
                                     display: flex;
                                     gap: 10px;
                                     margin-top: 5px;
                                     img{
                                         width: 24px;
-                                        display: block;
+                                        display: block;  
                                     }
                                 }
                             }
                         }
-                        &:hover{
-                            border: 4px solid white;
-                            img{
-                                display: block;
-                            }
-                        }
+                        
                     }
                     .item-2{
                         margin: 10px 0;
@@ -111,6 +117,8 @@
                         flex-direction: column;
                         justify-content: center;
                         position: relative;
+                        border: 4px solid transparent;
+                      .loc-img-2{
                         img{
                             position: absolute;
                             bottom: 60.38px;
@@ -119,6 +127,7 @@
                             height: 245px;
                             display: none;
                         }
+                      }
                         .text-div-2{
                             display: flex;
                             flex-direction: row;
@@ -154,14 +163,17 @@
                         flex-direction: column;
                         justify-content: center;
                         position: relative;
-                        img{
-                            position: absolute;
-                            bottom: 60.38px;
-                            left: 609px;
-                            width: 245px;
-                            height: 245px;
-                            display: none;
-                        }
+                        border: 4px solid transparent;
+                        .loc-img-3{
+                            img{
+                                position: absolute;
+                                bottom: 60.38px;
+                                left: 609px;
+                                width: 245px;
+                                height: 245px;
+                                display: none;
+                            }
+                          }
                         .text-div-3{
                             display: flex;
                             flex-direction: row;
@@ -195,14 +207,17 @@
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        img{
-                            position: absolute;
-                            bottom: 60.38px;
-                            left: 609px;
-                            width: 245px;
-                            height: 245px;
-                            display: none;
-                        }
+                        border: 4px solid transparent;
+                        .loc-img-4{
+                            img{
+                                position: absolute;
+                                bottom: 60.38px;
+                                left: 609px;
+                                width: 245px;
+                                height: 245px;
+                                display: none;
+                            }
+                          }
                         .text-div-4{
                             display: flex;
                             flex-direction: row;
@@ -236,14 +251,17 @@
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        img{
-                            position: absolute;
-                            bottom: 60.38px;
-                            left: 609px;
-                            width: 245px;
-                            height: 245px;
-                            display: none;
-                        }
+                        border: 4px solid transparent;
+                        .loc-img-5{
+                            img{
+                                position: absolute;
+                                bottom: 60.38px;
+                                left: 609px;
+                                width: 245px;
+                                height: 245px;
+                                display: none;
+                            }
+                          }
                         .text-div-5{
                             display: flex;
                             flex-direction: row;

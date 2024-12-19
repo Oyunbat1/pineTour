@@ -45,7 +45,7 @@ header .container .navbar nav ul li a {
 }
 
 .section-1 {
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 40%), linear-gradient(0deg, rgba(157, 184, 218, 0.2), rgba(157, 184, 218, 0.2)), url(https://www.figma.com/file/1e7XTalpjHHFHGSAtyUzEQ/image/7a7d1dd1098d2481fb0f847b6ba2c5d7bbe0db4b);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 40%), linear-gradient(0deg, rgba(157, 184, 218, 0.2), rgba(157, 184, 218, 0.2)), url(https://s3-alpha-sig.figma.com/img/7a7d/1dd1/098d2481fb0f847b6ba2c5d7bbe0db4b?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VmFriEqhVBHYrCSfHvGJAlBgmEs7gSbcsThzI8ScNWj~heVuTMVIB015eo3~~pkrKfBIlbch8YNEcZrjOF-UiWcYHbAO2BOz4xjr3MJmU4d4DvNgU1vsY5GTgBe70xH~g8AYao8ftYRCy5FsD6cshJ0jQnTcuNwuKdJbmapWjAUC1IxtHAiaiEF9YOa50g8H-Y60C4GQr42OGhF4foRzkP6hR115rFzVQGE0~FksaGE8ZOuID4ip6YF5M53R5rK6mc3QMONT9mvyaVZHlv3TdMmkJxzOKLGSJKgnyDZd0gV~R3OZqXvGaLflLIbIy8pj0vAC0TZsXuoPoQ64dqJjNQ__);
   background-size: cover;
   height: 100vh;
   width: 1440px;
@@ -98,22 +98,37 @@ header .container .navbar nav ul li a {
   height: 370px;
   border-radius: 40px;
   position: relative;
-  box-shadow: 8 8 0 rgba(41, 114, 139, 0.25);
-  box-shadow: -8 -8 0 rgba(31, 114, 170, 0.46);
 }
 .section-2 .card-container .card img {
-  width: 275.49px;
+  width: 100%;
   height: 370px;
   border-radius: 40px;
+  z-index: 100;
+}
+.section-2 .card-container .card img:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.65);
+  display: none;
 }
 .section-2 .card-container .card .rec {
-  width: 275.49px;
-  height: 370px;
+  width: 285.49px;
+  height: 376px;
   border-radius: 40px;
   position: absolute;
   mix-blend-mode: multiply;
   background-color: rgba(157, 184, 218, 0.2);
-  z-index: 90;
+  z-index: -1;
+}
+.section-2 .card-container .card .rec-1 {
+  bottom: 5px;
+  right: 1px;
+  width: 285.49px;
+  height: 370px;
+  border-radius: 40px;
+  position: absolute;
+  mix-blend-mode: multiply;
+  background-color: rgba(1, 96, 212, 0.2);
+  z-index: -1;
 }
 .section-2 .card-container .card .text {
   position: absolute;
@@ -135,7 +150,7 @@ header .container .navbar nav ul li a {
 .section-3 {
   width: 1440px;
   height: 1022px;
-  background-image: linear-gradient(360deg, rgba(216, 228, 233, 0) 0%, rgba(216, 228, 233, 0.9) 100%), url(https://s3-alpha-sig.figma.com/img/56fe/900c/3373b978c26674d26d5c9d2dfec315ab?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lpTEZOx2kkDG-Ol0N1YneGInHjSvIjLi2jWln4t-1mpxx6DGre11D624t~9abcnIvdBV9bOidWA-~O~qmJgnBnM7wswFhJ8qKwIuJfLU6KWjXoc2faTJhhNBjLbvpqDEtn7Qj4nQPABaeZbYJb-YgRxSc7z5wljIxYEwjTAPSFiLQSHRuZLuw02UeHmuNSRqLN06ZKWukHghh8fzOYFpDIAJRUCzI7sAbZ3EM-zCp2m7zEFs0WhNBhJGrXIfGXcNccHWv2CBOCiQlotnUrVpVQppyZVkmNhaprybL31yiNOumfRbtkBN2~~X~fj97k7Pv0ai3NJMTODWWcFjr6POPA__);
+  background-image: linear-gradient(360deg, rgba(216, 228, 233, 0) 0%, rgba(216, 228, 233, 0.9) 100%), url(https://s3-alpha-sig.figma.com/img/56fe/900c/3373b978c26674d26d5c9d2dfec315ab?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Rjciv~78v7eXIxMRjmO~uFpLU9MlfE1PP2mbiuYNM663B0mdmPgPQeA576-sZ3dFpMRsksVH9W25XFqka8VSFMgds5XEz7UV1s-wZheUKjBqnDn7p5-NReNHqjFoVMLVQvSdNFSVqe6GSmwt93nokyt5Q4GTk9F0HA18wRG3rDCzv45~m3LebyIoAN6wRJErpUFo~4gAiPKOUEegzWR5lgk3EyOdtWbOkWWZfS0sLc1EBI7gyKl7On~mUhzwkIPZoiW40dPWj1LRYcqsEKdN7KMkwzWLAIXeTVGB2Sk8na1~WwENv7jzoxWbA-GVGWxl2ypMw3DNjpHwWOi9HoW9XQ__);
   background-size: cover;
   height: 902px;
 }
@@ -195,14 +210,21 @@ header .container .navbar nav ul li a {
   flex-direction: column;
   justify-content: center;
   position: relative;
+  border: 4px solid transparent;
 }
-.section-3 .container .loc .loc-container .left .item-1 img {
+.section-3 .container .loc .loc-container .left .item-1 .loc-img-1 img {
   position: absolute;
   top: 50.38px;
   left: 809px;
   width: 245px;
   height: 245px;
   display: none;
+}
+.section-3 .container .loc .loc-container .left .item-1:hover {
+  border: 4px solid white;
+}
+.section-3 .container .loc .loc-container .left .item-1:hover img {
+  display: block;
 }
 .section-3 .container .loc .loc-container .left .item-1 .text-div-1 {
   display: flex;
@@ -211,6 +233,8 @@ header .container .navbar nav ul li a {
 }
 .section-3 .container .loc .loc-container .left .item-1 .text-div-1 .location-info {
   margin-right: 50px;
+  display: flex;
+  flex-direction: column;
 }
 .section-3 .container .loc .loc-container .left .item-1 .text-div-1 .location-info .location-details {
   display: flex;
@@ -219,12 +243,6 @@ header .container .navbar nav ul li a {
 }
 .section-3 .container .loc .loc-container .left .item-1 .text-div-1 .location-info .location-details img {
   width: 24px;
-  display: block;
-}
-.section-3 .container .loc .loc-container .left .item-1:hover {
-  border: 4px solid white;
-}
-.section-3 .container .loc .loc-container .left .item-1:hover img {
   display: block;
 }
 .section-3 .container .loc .loc-container .left .item-2 {
@@ -236,8 +254,9 @@ header .container .navbar nav ul li a {
   flex-direction: column;
   justify-content: center;
   position: relative;
+  border: 4px solid transparent;
 }
-.section-3 .container .loc .loc-container .left .item-2 img {
+.section-3 .container .loc .loc-container .left .item-2 .loc-img-2 img {
   position: absolute;
   bottom: 60.38px;
   left: 609px;
@@ -277,8 +296,9 @@ header .container .navbar nav ul li a {
   flex-direction: column;
   justify-content: center;
   position: relative;
+  border: 4px solid transparent;
 }
-.section-3 .container .loc .loc-container .left .item-3 img {
+.section-3 .container .loc .loc-container .left .item-3 .loc-img-3 img {
   position: absolute;
   bottom: 60.38px;
   left: 609px;
@@ -318,8 +338,9 @@ header .container .navbar nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 4px solid transparent;
 }
-.section-3 .container .loc .loc-container .left .item-4 img {
+.section-3 .container .loc .loc-container .left .item-4 .loc-img-4 img {
   position: absolute;
   bottom: 60.38px;
   left: 609px;
@@ -359,8 +380,9 @@ header .container .navbar nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 4px solid transparent;
 }
-.section-3 .container .loc .loc-container .left .item-5 img {
+.section-3 .container .loc .loc-container .left .item-5 .loc-img-5 img {
   position: absolute;
   bottom: 60.38px;
   left: 609px;
@@ -777,6 +799,7 @@ header .container .navbar nav ul li a {
 body {
   color: #fff;
   background-color: rgb(216, 228, 233);
+  width: 1440px;
 }
 
 /*# sourceMappingURL=main.css.map */
