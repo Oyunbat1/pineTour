@@ -50,7 +50,6 @@
                 border-radius: 40px;
                 background-color: white;
                 position: relative;
-
                 &:hover .bg-shadow-1 {
                     display: block;
                 }
@@ -62,7 +61,6 @@
                 &:hover .content .btn button {
                     background-color: rgb(39, 39, 49);
                     color: #fff;
-                    transition: all 0.5s;
                 }
 
                 .bg-shadow-1 {
@@ -88,8 +86,6 @@
                     border-radius: 40px;
                     display: none;
                 }
-
-                .header img {}
             }
 
             .card-1 {
@@ -211,6 +207,7 @@
                             border: none;
                             background-color: rgba(164, 209, 226, 1);
                             font-weight: bold;
+                            transition: all 0.5s;
                         }
                     }
                 }
@@ -345,6 +342,7 @@
                             border: none;
                             background-color: rgba(164, 209, 226, 1);
                             font-weight: bold;
+                            transition: all 0.5s;
                         }
                     }
                 }
@@ -470,6 +468,7 @@
                             border: none;
                             background-color: rgba(164, 209, 226, 1);
                             font-weight: bold;
+                            transition: all 0.5s;
                         }
                     }
                 }

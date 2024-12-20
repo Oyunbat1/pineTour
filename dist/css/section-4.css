@@ -53,7 +53,6 @@
 .section-4 .container .card-container .card:hover .content .btn button {
   background-color: rgb(39, 39, 49);
   color: #fff;
-  transition: all 0.5s;
 }
 .section-4 .container .card-container .card .bg-shadow-1 {
   position: absolute;
@@ -175,6 +174,7 @@
   border: none;
   background-color: rgb(164, 209, 226);
   font-weight: bold;
+  transition: all 0.5s;
 }
 .section-4 .container .card-container .card-2 .header {
   display: flex;
@@ -282,6 +282,7 @@
   border: none;
   background-color: rgb(164, 209, 226);
   font-weight: bold;
+  transition: all 0.5s;
 }
 .section-4 .container .card-container .card-3 .header {
   display: flex;
@@ -381,6 +382,7 @@
   border: none;
   background-color: rgb(164, 209, 226);
   font-weight: bold;
+  transition: all 0.5s;
 }
 .section-4 .container .footer-container {
   height: 204px;

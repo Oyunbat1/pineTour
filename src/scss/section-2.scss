@@ -5,13 +5,202 @@
         width: 1440px;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; 
         gap: 40px;
 
         .card {
             width: 275.49px;
             height: 370px;
             background-image: url(https://s3-alpha-sig.figma.com/img/9411/7af0/fae2d95b54ef6842a38934433c1d99d7?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H2IpamtxJLbt2h1I7CN-SqK-VA5KVkchffRwG71eGF52o~mzegg40BnbHrC6Qa74VC55C-H77UZXOPX7uYyZ4G3gJR2XBIAJrsI2tXKltEvDHJTt9tpShwPxw9Gm4vgvKOa--cXxIUU5TWhkC7LihZC9ShWLrc~CR4~rNQK3UlxMT72ymbRgaXpSpeIqE5BBmilusOzhF6M1ADE-1lF0EkE~xJJAgy3oNmcFC0UnIPTtyAdf8rwzfR~E0dc0sggHZ3xqsye2jfNueyxz07yxLY-kqd1sDkfgXpBI4w-sgNmK4EXEVLc00fc4oK5KD57CfINhfU4~izzC~~bkIeijxg__);
+            background-size: cover;
+            border-radius: 40px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover .bg-color {
+                opacity: 1;
+            }
+
+            &:hover .bg-text {
+                opacity: 1;
+            }
+
+            .bg-shadow-1 {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                z-index: -1;
+                background-color: #29728B40;
+                width: 275.49px;
+                height: 370px;
+                border-radius: 40px;
+            }
+
+            .bg-shadow-2 {
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                z-index: -1;
+                background-color: #1F72AA75;
+                width: 275.49px;
+                height: 370px;
+                border-radius: 40px;
+            }
+
+            .bg-color {
+                position: absolute;
+                inset: 0;
+                background-color: rgba(0, 0, 0, 0.4);
+                border-radius: 40px;
+                opacity: 0.2;
+                transition: opacity 0.5s;
+            }
+
+            .bg-text {
+                position: relative;
+                color: #fff;
+                text-align: center;
+                font-size: 37px;
+                font-weight: 400;
+                width: 232px;
+                font-family: "Bebas Neue", serif;
+                opacity: 0.8;
+                transition: opacity 0.5s;
+                text-shadow: 0px 4px 4.9px #000000A6;
+            }
+        }
+        .card-1 {
+            width: 275.49px;
+            height: 370px;
+            background-image: url(https://s3-alpha-sig.figma.com/img/e124/d31b/4b7edc8a8926233d613c437affc8b621?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MbGHAeVdqhTDoheuoIiHsCW7AE2Yk7exvdlYibx~SsTkaiOejXhRPEuxyANJfqcs0NCFpnuJ~psi5OI7Ce3~erIlzNkQEYBC-4-M0vA0fvfZ~Pf4PcbTnKWLqd9BmHWGz9R8pFOdQkO1oDREtSDs0nnVpu0XdQZfREgv8JqyVQFUatcXMpocL6Dp0WBGaS8shyMMO3qklmm-s-yxOoNuGzOEgLkZe7~fpNzuqU6r755UOShzsHYf0WhUf2Y6EnoULd8LDGsQ3Y1J-913LTceBhr-cf3MkeuuxPv4e9cQRy5Gh4ic9-HeoRg1vAly4lK9JGwEAzSPrmFzmqdWF~YPMQ__);
+            background-size: cover;
+            border-radius: 40px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover .bg-color {
+                opacity: 1;
+            }
+
+            &:hover .bg-text {
+                opacity: 1;
+            }
+
+            .bg-shadow-1 {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                z-index: -1;
+                background-color: #29728B40;
+                width: 275.49px;
+                height: 370px;
+                border-radius: 40px;
+            }
+
+            .bg-shadow-2 {
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                z-index: -1;
+                background-color: #1F72AA75;
+                width: 275.49px;
+                height: 370px;
+                border-radius: 40px;
+            }
+
+            .bg-color {
+                position: absolute;
+                inset: 0;
+                background-color: rgba(0, 0, 0, 0.4);
+                border-radius: 40px;
+                opacity: 0.2;
+                transition: opacity 0.5s;
+            }
+
+            .bg-text {
+                position: relative;
+                color: #fff;
+                text-align: center;
+                font-size: 37px;
+                font-weight: 400;
+                width: 232px;
+                font-family: "Bebas Neue", serif;
+                opacity: 0.8;
+                transition: opacity 0.5s;
+                text-shadow: 0px 4px 4.9px #000000A6;
+            }
+        }
+        .card-2 {
+            width: 275.49px;
+            height: 370px;
+            background-image: url(https://s3-alpha-sig.figma.com/img/a4d6/0416/d42b9ac033e9ea4869926a93ad64d227?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bs7x5IxEDskmrNgwHwpqJxtJ8JjcjlWlA6i~nGjgDk4gSziLZ-yNeHh8bC6BpHmHQHsrcOxrAarKv3L3vBBYQBFsqlQ1lXLERSUrbg24AofEHJfaNBKzlGGOLXwzFxCP4RBpETg4o4RRq-U~Nbo2fCXTnTtjNKRHl49pBClvnHYhv-h7fOdNsc9o6k5NbyFDucPHHrv2ifG6szdzpIwerzoNRbNrtxVKxsoRnIQO6pM24FaaRXJNJxXlsZKz2u-UV7k9cMOGr90HKCvWADtYf43LXzLMXsTgipXuuielX0dhBjRJl82FzMw20yz3Sm2m7tj~meRz18pHC9EXf8apzA__);
+            background-size: cover;
+            border-radius: 40px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover .bg-color {
+                opacity: 1;
+            }
+
+            &:hover .bg-text {
+                opacity: 1;
+            }
+
+            .bg-shadow-1 {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                z-index: -1;
+                background-color: #29728B40;
+                width: 275.49px;
+                height: 370px;
+                border-radius: 40px;
+            }
+
+            .bg-shadow-2 {
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                z-index: -1;
+                background-color: #1F72AA75;
+                width: 275.49px;
+                height: 370px;
+                border-radius: 40px;
+            }
+
+            .bg-color {
+                position: absolute;
+                inset: 0;
+                background-color: rgba(0, 0, 0, 0.4);
+                border-radius: 40px;
+                opacity: 0.2;
+                transition: opacity 0.5s;
+            }
+
+            .bg-text {
+                position: relative;
+                color: #fff;
+                text-align: center;
+                font-size: 37px;
+                font-weight: 400;
+                width: 232px;
+                font-family: "Bebas Neue", serif;
+                opacity: 0.8;
+                transition: opacity 0.5s;
+                text-shadow: 0px 4px 4.9px #000000A6;
+            }
+        }
+        .card-3 {
+            width: 275.49px;
+            height: 370px;
+            background-image: url(https://s3-alpha-sig.figma.com/img/d2b9/7a2b/78cccaa3f6ec592813187ea25729681e?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JfaeCg5oyUtY3ibc1rv4r~3xRlnPAsluETBXBEbjg9U8iuGTg1mJBHCKzfdDl1itk3uHIspo3I-qvveinidi0CZXcZNhP9CRhlg~VO5XZr5V4NFa10H-x~LRm7mH8q~3HwlU3c7Ap3BnsFCKVbT-FEOCHpUt0KaiCB1nLVQ9qGwutUD6JgPgMTG2aZetrlveH-upr5R6SgAq7HD94ppLZw4a2N~hOdsuNw1G6cTIg1~bjqT09JWWNQVpHrZtc69HFIQ-BsMshO3wuhb6GX6aGCfhYAwYYHUdIgBj2zYKqA8F7zTbObesI7kp4HsTt4uvhuc8BAI-txKVeUPBle-MMg__);
             background-size: cover;
             border-radius: 40px;
             position: relative;
